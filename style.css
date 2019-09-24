@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    color: purple;
+}
+
+h2{
+    font-size: 3em;
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    margin: 2px;
+}
+
+#EE{
+    background-color: rgba(145, 238, 142, 0.47)
+}
+
+span{
+    color: rgb(252, 1, 197);
+    text-decoration: underline;
+}
+
