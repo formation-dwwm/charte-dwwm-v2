@@ -1,11 +1,10 @@
 body{
 
     font-family: 'The Girl Next Door', cursive;
-    background-image: url("img/bg.jpg");
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(red, yellow, green);
+    background-image: linear-gradient(black, grey);
     color : white;
 }
 
@@ -15,7 +14,6 @@ header{
 
 h1{
     text-align: center;
-    color: white;
     text-shadow: 5px 5px 5px black;
     font-family: fantasy;
 }
@@ -32,86 +30,54 @@ section{
     box-shadow: 5px 5px 5px black;
     margin: 10px auto;
     padding: 10px;
-    width: 600px;
+    width: 550px;
     word-break: break-word;
-    /*opacity: 0.8;*/
 }
 
 #EE{
     background-color: rgba(145, 238, 142, 0.47);
-    /*float: left;*/
-    /*transition: transform 2s;*/
 }
 
 #IG{
     background-color: #ffff00a8;
-    /*float: right;*/
 }
 
 #CP{
     background-color: rgba(199, 57, 199, 0.61);
-    /*float: right;*/
 }
 
 #MH{
     background-color: rgba(40, 133, 240, 0.205);
-    /*float: left;*/
 }
 
 #ECO{
     background-color: rgba(84, 192, 51, 0.651);
-    /*float: right;*/
 }
 
 #JU{
     background-color: rgba(236, 48, 48, 0.966);
-    /*float: left;*/
-    margin-bottom: 80px;
 }
 
-#EE, #MH, #JU{
-    border-radius: 0 0 5% 0;
-    /*margin-left: 120px;*/
+#EE, #IG, #CP, #MH, #ECO, #JU{
+    border-radius: 10%;
+    transform: transition 2s;
 }
 
-#ECO, #CP, #IG{
-    border-radius: 0 0 5% 0;
-    /*margin-right: 120px;*/
+#EE:hover, #CP:hover, #ECO:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+
+#IG:hover, #MH:hover, #JU:hover{
+    transform: scale(1.1) rotate(-3deg);
 }
 
 section:hover{
     box-shadow: 5px 10px 10px black;
-    opacity: 1;
 }
 
 span{
     color: rgb(252, 1, 197);
     text-decoration: underline;
-}
-
-#IG:hover{
-    border-radius: 0 0 10% 0;
-}
-
-#EE:hover{
-    border-radius: 0 0 10% 0;
-    /*transform: rotate(360deg);*/
-}
-
-#ECO:hover{
-    border-radius: 0 0 10% 0;
-}
-
-#CP:hover{
-    border-radius: 0 0 10% 0;
-}
-
-#JU:hover{
-    border-radius: 0 0 10% 0;
-}
-
-#MH:hover{
-    border-radius: 0 0 10% 0;    
 }
 
 li{
@@ -121,5 +87,4 @@ li{
 footer{
     text-align: center;
     width: 100%;
-    /*clear: both;*/
 }
