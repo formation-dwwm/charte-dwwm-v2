@@ -60,7 +60,7 @@ section{
 
 #EE, #IG, #CP, #MH, #ECO, #JU{
     border-radius: 10%;
-    transform: transition 2s;
+    transform: transition 2s ease-in;
 }
 
 #EE:hover, #CP:hover, #ECO:hover{
