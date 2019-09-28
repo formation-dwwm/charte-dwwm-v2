@@ -19,6 +19,10 @@ h1{
     text-transform: uppercase;
 }
 
+#side2{
+    display: none;
+}
+
 h2{
     font-size: 2.5em;
     text-align: center;
@@ -97,4 +101,21 @@ li{
 footer{
     text-align: center;
     width: 100%;
+}
+
+header{
+    transition: all 1s;
+}
+
+header:hover{
+    transform: rotateY(180deg);
+}
+
+header:hover #side1{
+    display: none;
+}
+
+header:hover #side2{
+    display: block;
+    transform: rotateY(-180deg);
 }
